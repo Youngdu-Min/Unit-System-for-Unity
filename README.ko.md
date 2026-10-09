@@ -9,6 +9,14 @@
 유지보수와 확장성을 고려한 유닛 시스템입니다.  
 인터페이스, 추상클래스, ScriptableObject를 활용하여 다양한 유닛을 추가 및 수정이 용이하도록 설계됐습니다.
 
+## 플레이 영상
+
+[![Hook The Boss 플레이 영상](https://img.youtube.com/vi/cX2HVszDxR0/hqdefault.jpg)](https://www.youtube.com/watch?v=cX2HVszDxR0)
+
+이 유닛 시스템을 실제로 적용한 팀 프로젝트 **Hook The Boss**(개발 중단)의 플레이 영상입니다.
+유닛 시스템(적·보스 FSM, 상태 이상, 부위별 피격, 애니메이션 컨트롤러)은 제가 단독으로 설계·구현했습니다.
+영상 속 플레이어 능력 등 다른 장면은 다른 팀원이 작업한 부분입니다.
+
 ## 주요 기능
 
 - **Class-based FSM**: 상태를 클래스 단위로 캡슐화하여 MonoBehaviour의 의존성을 줄이고, 상태 추가 및 수정이 용이합니다.
