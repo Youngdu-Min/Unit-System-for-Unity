@@ -8,6 +8,14 @@
 
 A maintainable and extensible unit system for Unity, designed with interfaces, abstract classes, and ScriptableObjects to make adding and modifying units straightforward.
 
+## Demo Video
+
+[![Hook The Boss gameplay video](https://img.youtube.com/vi/cX2HVszDxR0/hqdefault.jpg)](https://www.youtube.com/watch?v=cX2HVszDxR0)
+
+Gameplay footage from **Hook The Boss**, a team project (discontinued) that used this unit system in production.
+I designed and implemented the unit system on my own: enemy and boss FSMs, status effects, body-part damage, and the animation controller.
+Other scenes in the video, such as player abilities, were built by other team members.
+
 ## Features
 
 - **Class-based FSM**: Encapsulates each state as a dedicated class, reducing MonoBehaviour dependency and making it easy to add or modify states.
